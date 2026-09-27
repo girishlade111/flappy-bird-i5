@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  basePath: "/flappy-bird-i5",
   eslint: {
     ignoreDuringBuilds: true,
   },
